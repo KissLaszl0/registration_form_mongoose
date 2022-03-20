@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Registration</title>
+</head>
+
+<body>
+  <div class="form">
+    <div class="login-box">
+      <h2>Registration Form</h2>
+      <form action="http://localhost:3001/user/register" method="POST"> 
+      <form >
+        <div class="user-box">
+          <input type="text" name="username" value="muszaki" required="">
+          <label>Username</label>
+        </div>
+        <div class="user-box">
+          <input id="text" type="password" name="password" value="pass" required="">
+          <label>Password</label>
+        </div>
+        <div class="user-box">
+          <input id="text" type="text" name="firstName" value="mlaca" required="">
+          <label>Firstname:</label>
+        </div>
+        <div class="user-box">
+          <input id="text" type="text" name="lastName" value="dci" required="">
+          <label>Lastname:</label>
+        </div>
+        <div class="user-box">
+          <input id="text" type="text" name="dateOfBirth" value="10.10.2000" required="">
+          <label>Birthday:</label>
+        </div>
+        <div class="user-box">
+          <input id="text" type="text" name="email" value="email@gg.ccom" required="">
+          <label>Email:</label>
+        </div>
+        <div class="user-box">
+          <input id="text" type="text" name="telephone" value="112233" required="">
+          <label>Telefon:</label>
+        </div>
+        <div class="user-box">
+          <input id="text" type="text" name="gender" value="N/A" required="">
+          <label>Gender:</label>
+        </div>
+
+        <button href="#" onclick="destroy()">
+          <span></span>
+          <span></span>
+          <span></span>
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+  
+
+</body>
+
+</html>
