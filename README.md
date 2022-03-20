@@ -10,8 +10,8 @@ post/users/register => add user to database
 
 .env => alle daten nur beispiel :)
 
-DB_NAME= database name zB.   userDatabase
-DB_HOST=database host zB.    cluster6.dw34g.mongodb.net 
-DB_USER=database user zB.    testUser
-DB_PASS=database pass zB.    testpassword
-PORT=3001
++ DB_NAME= database name zB.   userDatabase
++ DB_HOST=database host zB.    cluster6.dw34g.mongodb.net 
++ DB_USER=database user zB.    testUser
++ DB_PASS=database pass zB.    testpassword
++ PORT=3001
